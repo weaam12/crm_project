@@ -1,8 +1,8 @@
-import 'package:crm_project/features/home/busnisses_Logic_layer/controller/auth_controller.dart';
+import 'package:crm_project/data/featuers/user_management/presentation/controllers/auth_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'core/routing/app_pages.dart';
+import 'core/routes/app_pages.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

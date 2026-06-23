@@ -1,6 +1,6 @@
-import 'package:crm_project/features/home/data layer/models/TenantMeModel.dart';
-import 'package:crm_project/features/home/data layer/source/auth_api_service.dart';
-import 'package:crm_project/features/home/data%20layer/models/platformModel.dart'
+import 'package:crm_project/data/featuers/user_management/data/models/TenantMeModel.dart';
+import 'package:crm_project/core/network/auth_api_service.dart';
+import 'package:crm_project/data/featuers/user_management/data/models/platformModel.dart'
     hide Permission;
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -127,12 +127,13 @@ class LoginController extends GetxController {
       workspaceName.value = 'Central Platform';
       userStatus.value = platformModel.user.status;
 
-      if (platformModel.user.profiles.isNotEmpty) {
-        profileName.value = platformModel.user.profiles.first.name;
-      }
+if (platformModel.user.profiles.isNotEmpty) {
+  profileName.value = platformModel.user.profiles.first.name;
+}
 
-      permissionsCount.value = platformModel.user.permissions.length;
+permissionsCount.value = platformModel.user.permissions.length;
       Get.offAllNamed('/platform-dashboard');
+      
     }
   }
 

@@ -1,8 +1,8 @@
-import 'package:crm_project/core/routing/app_routes.dart';
-import 'package:crm_project/features/home/busnisses_Logic_layer/controller/auth_controller.dart';
-import 'package:crm_project/features/home/presentation_layer/screens/login_screen.dart';
-import 'package:crm_project/features/home/presentation_layer/screens/platformDashboardScreen.dart';
-import 'package:crm_project/features/home/presentation_layer/screens/tenantDashboardScreen.dart';
+import 'package:crm_project/core/routes/app_routes.dart';
+import 'package:crm_project/data/featuers/user_management/presentation/controllers/auth_controller.dart';
+import 'package:crm_project/data/featuers/user_management/presentation/screens/login_screen.dart';
+import 'package:crm_project/data/featuers/user_management/presentation/screens/platformDashboardScreen.dart';
+import 'package:crm_project/data/featuers/user_management/presentation/screens/tenantDashboardScreen.dart';
 import 'package:get/get.dart';
 
 

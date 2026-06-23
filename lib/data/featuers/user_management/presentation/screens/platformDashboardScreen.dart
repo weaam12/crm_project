@@ -1,6 +1,7 @@
-import 'package:crm_project/core/const/app_tokens.dart';
-import 'package:crm_project/features/home/busnisses_Logic_layer/controller/auth_controller.dart';
-import 'package:crm_project/features/home/presentation_layer/widgets/platformDrawer.dart';
+
+import 'package:crm_project/core/theme/app_tokens.dart';
+import 'package:crm_project/data/featuers/user_management/presentation/controllers/auth_controller.dart';
+import 'package:crm_project/data/featuers/user_management/presentation/widgets/platformDrawer.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

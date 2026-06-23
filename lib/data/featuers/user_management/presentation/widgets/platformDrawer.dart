@@ -1,7 +1,7 @@
-import 'package:crm_project/core/const/app_tokens.dart';
+import 'package:crm_project/core/theme/app_tokens.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../busnisses_Logic_layer/controller/auth_controller.dart';
+import '../controllers/auth_controller.dart';
 
 class PlatformDrawer extends StatelessWidget {
   PlatformDrawer({super.key});
